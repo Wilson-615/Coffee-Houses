@@ -1,0 +1,18 @@
+.pageHeader {
+    display: flex;
+    justify-content: center;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;  /* Let the rows wrap if there are too many */
+    justify-content: space-evenly;
+}
+
+.shop {
+    flex-basis: 16%;
+    border: 1px dotted rgb(20, 37, 220);
+    padding: 1em;
+    margin: 0.5em;
+    text-align:left; 
+}
